@@ -1,0 +1,71 @@
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="left"><a href="mine.html" class="link"> <i class="icon icon-back"></i><span>我</span></a></div>
+    <div class="center sliding">个人信息</div>
+  </div>
+</div>
+<div class="pages">
+  <div data-page="me" class="page navbar-fixed toolbar-fixed">
+    <div class="page-content">
+      <div class="list-block">
+        <ul>
+          <li id="info-photo">
+            <a href="#" class="item-link item-content">
+              <div class="item-inner">
+                <div class="item-title-row" style="line-height: 35px;">
+                  <div class="item-title">头像</div>
+                </div>
+                <div class="item-after item-media"><img width="40" height="40" src="{{icon==null?'img/default.png':icon}}"></div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="item-content item-link" href="javascript:;">
+              <div class="item-inner">
+                <div class="item-title">EMsg号</div>
+                <div class="item-after">{{id}}</div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="item-content item-link" href="update-nickname.html">
+              <div class="item-inner">
+                <div class="item-title">昵称</div>
+                <div class="item-after">{{nickname}}</div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="item-content item-link" href="update-gender.html">
+              <div class="item-inner">
+                <div class="item-title">性别</div>
+                <div class="item-after">{{gender}}</div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="item-content item-link" href="update-birthday.html">
+              <div class="item-inner">
+                <div class="item-title">生日</div>
+                <div class="item-after">{{birthday}}</div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="list-block">
+        <ul>
+          <li>
+            <a class="item-content item-link" href="update-email.html">
+              <div class="item-inner">
+                <div class="item-title">邮箱</div>
+                <div class="item-after">{{email}}</div>
+              </div>
+            </a>
+          </li>
+          </ul>
+        </div>
+    </div>
+    <input type="file" accept="image/*;capture=camera" id="file_upload" style="display: none;"/>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="left"><a href="detail.html?id={{id}}&isFriend=1" class="link"> <i class="icon icon-back"></i><span>详细资料</span></a></div>
+    <div class="center sliding nickname">{{nickname}}</div>
+  </div>
+</div>
+<div class="pages">
+  <div data-page="message" class="page navbar-fixed toolbar-fixed">
+    <form id="to-user">
+      <input type="hidden" name="icon" value="{{icon}}"/>
+      <input type="hidden" name="nickname" value="{{nickname}}"/>
+      <input type="hidden" name="id" value="{{id}}"/>
+    </form>
+    <div class="page-content messages-content">
+      <div class="messages messages-init" data-auto-layout="true" data-new-messages-first="false">
+
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,35 @@
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="left"><a href="me.html" class="link"> <i class="icon icon-back"></i><span>个人信息</span></a></div>
+    <div class="center sliding">性别</div>
+    <div class="right"><a href="javascript:;" class="link save-btn">保存</a></div>
+  </div>
+</div>
+<div class="pages">
+  <div data-page="update-gender" class="page navbar-fixed toolbar-fixed">
+    <div class="page-content">
+      <div class="list-block">
+        <form id="save-form">
+        <ul>
+          <li>
+            <label class="label-radio item-content">
+              <input type="radio" name="gender" value="男" {{#if gender_boy}}checked{{/if}}>
+              <div class="item-inner">
+                <div class="item-title">男</div>
+              </div>
+            </label>
+          </li>
+          <li>
+            <label class="label-radio item-content">
+              <input type="radio" name="gender" value="女" {{#if gender_girl}}checked{{/if}}>
+              <div class="item-inner">
+                <div class="item-title">女</div>
+              </div>
+            </label>
+          </li>
+        </ul>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

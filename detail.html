@@ -1,0 +1,57 @@
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="left" id="detail_back"><a href="add.html" class="link"> <i class="icon icon-back"></i><span>添加好友</span></a></div>
+    <div class="center sliding">详细资料</div>
+  </div>
+</div>
+<div class="pages">
+  <div data-page="detail" class="page navbar-fixed toolbar-fixed">
+    <div class="page-content">
+      <div class="list-block">
+        <ul>
+          <li id="info-photo">
+            <a href="javascript:;" class="item-content">
+              <div class="item-inner">
+                <div class="item-after item-media"><img width="40" height="40" src="{{icon}}">&nbsp;&nbsp;{{nickname}}</div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="item-content" href="javascript:;">
+              <div class="item-inner">
+                <div class="item-after">EMsg号</div>
+                <div class="item-after">{{id}}</div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="item-content" href="javascript:;">
+              <div class="item-inner">
+                <div class="item-after">性别</div>
+                <div class="item-after">{{gender}}</div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="item-content" href="javascript:;">
+              <div class="item-inner">
+                <div class="item-after">邮箱</div>
+                <div class="item-after">{{email}}</div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="item-content" href="javascript:;">
+              <div class="item-inner">
+                <div class="item-after">生日</div>
+                <div class="item-after">{{birthday}}</div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <p class="buttons-row"><a href="#" class="button button-big button-fill button-raised add-button">添加</a></p>
+      <p class="buttons-row"><a href="message.html?id={{id}}" class="button button-big button-fill button-raised chat-button">发消息</a></p>
+    </div>
+  </div>
+</div>
